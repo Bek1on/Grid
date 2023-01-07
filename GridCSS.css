@@ -1,0 +1,10 @@
+header {
+  background-color: gray; //Background is gray
+  display: grid; //grid displays are gray
+  grid-template-column: repeat(10, 1fr); //column of length 10 with spacing of 1
+  
+}
+
+header > div:nth-child(3) { //selects 3 divs
+    grid-column: 10; //10 columns produced among the 3 divs
+}
